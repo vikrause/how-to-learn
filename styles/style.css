@@ -196,6 +196,12 @@
   margin: 0;
 }
 
+.table__span {
+  display: flex;
+  text-align: end;
+  padding-top: 20px;
+}
+
 .feynman {
   display: flex;
   flex-direction: column;
