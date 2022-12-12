@@ -358,7 +358,6 @@
   margin: 0;
   list-style: none;
   padding: 0 0 16px 0;
-  align-self: flex-start;
   display: block;
   width: fit-content;
 }
