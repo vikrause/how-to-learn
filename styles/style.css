@@ -6,15 +6,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.header {
-  display: flex;
-  position: relative;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  background-color: #f2f2f2;
-}
-
 .logo {
   width: 228px;
   height: 32px;
@@ -27,6 +18,8 @@
   left: 64px;
   z-index: 3;
 }
+
+
 
 .header__title {
   display: flex;
