@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <title>Научиться учиться</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <!--<link rel="stylesheet" href="./pages/index.css">-->
   <link rel="icon" type="image/x-icon" href="./images/kaufman-triangle.svg">
 </head>
 <body class="page">
@@ -21,12 +23,51 @@
       <div class="two-columns">
         <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
-          <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
-          <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
-          <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
+          <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
+            Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест,
+            но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
+          <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно
+            уметь, но почему-то этому мало где учат. Что с этим делать?</p>
+          <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать
+            его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
         </div>
       </div>
     </section>
+    <section class="techniques">
+      <h2 class="section-title">Техники обучения</h2>
+      <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+      <ul class="cards">
+        <li class="cards__item">
+          <img class="cards__image" src="./images/cards-attention.png" alt="Внимание">
+          <h3 class="cards__title">Два вида внимания</h3>
+          <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное
+            мышление.</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/cards-recall.png" alt="Память">
+          <h3 class="cards__title">Recall</h3>
+          <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/cards-interliving.png" alt="Интерливинг">
+          <h3 class="cards__title">Интерливинг</h3>
+          <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/cards-question.png" alt="Вопросы">
+          <h3 class="cards__title">Вопросы</h3>
+          <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
+            волнует.</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/cards-competence.png" alt="Компетентность">
+          <h3 class="cards__title">Иллюзия компетентности</h3>
+          <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
+            владеете новой темой.</p>
+        </li>
+      </ul>
+    </section>
+
     <section class="digits">
       <h2 class="section-title">Цифры и факты</h2>
       <p class="section-subtitle">Про учёбу и мозг</p>
@@ -111,7 +152,8 @@
         </li>
         <li class="table__cell table__cell_theme_dark">
           <h3 class="table__heading table__heading_theme_dark">9</h3>
-          <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+          <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными
+            интервалами.</p>
         </li>
         <li class="table__cell table__cell_theme_dark">
           <h3 class="table__heading table__heading_theme_dark">10</h3>

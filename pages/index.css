@@ -1,4 +1,5 @@
 @import "../vendor/normalize.css";
+@import "../rotation/rotation.css";
 @import "../blocks/page/page.css";
 @import "../blocks/header/header.css";
 @import "../blocks/header/logo/logo.css";
@@ -15,6 +16,8 @@
 @import "../blocks/content/description/two-columns/__main-text/two-columns__main-text.css";
 @import "../blocks/content/description/two-columns/__paragraph/two-columns__paragraph.css";
 @import "../blocks/content/description/two-columns/__span-accent/two-columns__span-accent.css";
+@import "../blocks/content/techniques/techniques.css";
+@import "../blocks/content/techniques/cards/cards.css";
 @import "../blocks/content/digits/digits.css";
 @import "../blocks/content/digits/section-title/section-title.css";
 @import "../blocks/content/digits/section-subtitle/section-subtitle.css";
@@ -39,6 +42,7 @@
 @import "../blocks/content/kaufman/table/__heading/_theme/table__heading_theme_dark.css";
 @import "../blocks/content/kaufman/table/__text/table__text.css";
 @import "../blocks/content/kaufman/table/__text/_theme/table__text_theme_dark.css";
+@import "../blocks/content/kaufman/__triangle/kaufman__triangle.css";
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__columns/footer__columns.css";
 @import "../blocks/footer/__columns/__column/footer__column.css";
@@ -52,5 +56,7 @@
 @import "../blocks/footer/__columns/__column/__column-link/footer__column-link.css";
 @import "../blocks/footer/__columns/__column/_content/footer__column_content_social.css";
 @import "../blocks/footer/__columns/__column/__social-icon/footer__social-icon.css";
+
+
 
 
