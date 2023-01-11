@@ -5,9 +5,10 @@
   margin: 0;
   display: flex;
   justify-content: space-evenly;
+  opacity: 1;
+  transition: opacity 1s ease;
 }
 
-.resources__link:hover:hover {
+.resources__link:hover {
   opacity: 0.5;
-  transition: 1s ease;
 }

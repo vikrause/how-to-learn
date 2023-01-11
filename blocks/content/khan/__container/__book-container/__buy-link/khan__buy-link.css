@@ -6,9 +6,10 @@
   padding: 0 0 0 48px;
   margin: 0;
   color: #2f80ed;
+  opacity: 1;
+  transition: opacity 1s ease;
 }
 
 .khan__buy-link:hover {
   opacity: 0.5;
-  transition: 1s ease;
 }
