@@ -11,3 +11,8 @@
   margin: 0;
   z-index: 1;
 }
+
+.feynman__link:hover {
+  opacity: 0.5;
+  transition: 1s ease;
+}

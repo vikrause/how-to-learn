@@ -1,8 +1,12 @@
 .header__link {
   position: absolute;
-  display: contents;
   text-decoration: none;
   color: #2f80ed;
   z-index: 3;
   margin: 0;
+}
+
+.header__link:hover {
+  opacity: 0.5;
+  transition: 1s ease;
 }
